@@ -1,0 +1,17 @@
+.dashboard {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    color: green;
+  }

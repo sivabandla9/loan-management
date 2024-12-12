@@ -1,0 +1,12 @@
+<div class="dashboard">
+    <h1>Eligibility Checker</h1>
+    <form (ngSubmit)="checkEligibility()">
+      <label for="name">Enter Name:</label>
+      <input type="text" id="name" [(ngModel)]="name" name="name" required />
+      <button type="submit">Check Eligibility</button>
+    </form>
+    <div *ngIf="eligibilityStatus" class="result">
+      <h2>Result: {{ eligibilityStatus }}</h2>
+    </div>
+  </div>
+  
